@@ -1,0 +1,84 @@
+[20-Feb-2019 04:35:04 UTC] PHP Notice:  Undefined variable: nm_perush in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord1.php on line 49
+[20-Feb-2019 04:54:42 UTC] PHP Notice:  Undefined variable: nm_perush in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord1.php on line 49
+[20-Feb-2019 04:55:04 UTC] PHP Notice:  Undefined variable: nm_perush in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord1.php on line 49
+[08-Mar-2019 00:57:19 UTC] PHP Notice:  Undefined variable: nm_perush in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord1.php on line 49
+[08-Mar-2019 00:57:34 UTC] PHP Notice:  Undefined index: ls_tanah in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2_view.php on line 17
+[08-Mar-2019 00:57:34 UTC] PHP Notice:  Undefined index: img in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2_view.php on line 20
+[08-Mar-2019 00:57:34 UTC] PHP Notice:  Undefined variable: nm_perumh in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2_view.php on line 48
+[08-Mar-2019 00:57:46 UTC] PHP Notice:  Undefined variable: nm_perush in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord1.php on line 49
+[08-Mar-2019 00:58:20 UTC] PHP Notice:  Undefined variable: nm_perush in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord1.php on line 49
+[08-Mar-2019 00:58:32 UTC] PHP Notice:  Undefined variable: nm_perush in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord1.php on line 49
+[08-Mar-2019 00:58:36 UTC] PHP Notice:  Undefined index: ls_tanah in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2_view.php on line 17
+[08-Mar-2019 00:58:36 UTC] PHP Notice:  Undefined index: img in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2_view.php on line 20
+[08-Mar-2019 00:58:36 UTC] PHP Notice:  Undefined variable: nm_perumh in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2_view.php on line 48
+[08-Mar-2019 00:58:46 UTC] PHP Notice:  Undefined index: ls_tanah in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2_view.php on line 17
+[08-Mar-2019 00:58:46 UTC] PHP Notice:  Undefined index: img in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2_view.php on line 20
+[08-Mar-2019 00:58:46 UTC] PHP Notice:  Undefined variable: nm_perumh in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2_view.php on line 48
+[08-Mar-2019 00:58:50 UTC] PHP Notice:  Undefined index: ls_tanah in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2_view.php on line 17
+[08-Mar-2019 00:58:50 UTC] PHP Notice:  Undefined index: img in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2_view.php on line 20
+[08-Mar-2019 00:58:50 UTC] PHP Notice:  Undefined variable: nm_perumh in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2_view.php on line 48
+[08-Mar-2019 01:01:02 UTC] PHP Notice:  Undefined variable: nm_perush in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord1.php on line 49
+[08-Mar-2019 01:05:49 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif.php on line 2
+[08-Mar-2019 01:05:49 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif.php on line 2
+[08-Mar-2019 01:05:49 UTC] PHP Warning:  mysql_query(): Access denied for user 'atmmaini'@'localhost' (using password: NO) in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif.php on line 20
+[08-Mar-2019 01:05:49 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif.php on line 20
+[08-Mar-2019 01:05:49 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif.php on line 21
+[08-Mar-2019 01:06:01 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 2
+[08-Mar-2019 01:06:01 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 2
+[08-Mar-2019 01:06:01 UTC] PHP Warning:  mysql_query(): Access denied for user 'atmmaini'@'localhost' (using password: NO) in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 19
+[08-Mar-2019 01:06:01 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 19
+[08-Mar-2019 01:06:01 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 20
+[08-Mar-2019 01:08:32 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif3.php on line 2
+[08-Mar-2019 01:08:32 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif3.php on line 2
+[08-Mar-2019 01:08:32 UTC] PHP Warning:  mysql_query(): Access denied for user 'atmmaini'@'localhost' (using password: NO) in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif3.php on line 19
+[08-Mar-2019 01:08:32 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif3.php on line 19
+[08-Mar-2019 01:08:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif3.php on line 20
+[08-Mar-2019 01:08:32 UTC] PHP Notice:  Undefined index: no in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif3.php on line 40
+[08-Mar-2019 01:08:32 UTC] PHP Warning:  mysql_query(): Access denied for user 'atmmaini'@'localhost' (using password: NO) in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif3.php on line 42
+[08-Mar-2019 01:08:32 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif3.php on line 42
+[08-Mar-2019 01:08:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif3.php on line 43
+[08-Mar-2019 01:09:39 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif.php on line 2
+[08-Mar-2019 01:09:39 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif.php on line 2
+[08-Mar-2019 01:09:39 UTC] PHP Warning:  mysql_query(): Access denied for user 'atmmaini'@'localhost' (using password: NO) in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif.php on line 20
+[08-Mar-2019 01:09:39 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif.php on line 20
+[08-Mar-2019 01:09:39 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif.php on line 21
+[08-Mar-2019 01:09:54 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 2
+[08-Mar-2019 01:09:54 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 2
+[08-Mar-2019 01:09:54 UTC] PHP Warning:  mysql_query(): Access denied for user 'atmmaini'@'localhost' (using password: NO) in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 19
+[08-Mar-2019 01:09:54 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 19
+[08-Mar-2019 01:09:54 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 20
+[08-Mar-2019 01:11:19 UTC] PHP Warning:  mysql_query(): Access denied for user 'atmmaini'@'localhost' (using password: NO) in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord.php on line 30
+[08-Mar-2019 01:11:19 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord.php on line 30
+[08-Mar-2019 01:11:19 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord.php on line 31
+[08-Mar-2019 01:11:22 UTC] PHP Warning:  mysql_query(): Access denied for user 'atmmaini'@'localhost' (using password: NO) in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord.php on line 30
+[08-Mar-2019 01:11:22 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord.php on line 30
+[08-Mar-2019 01:11:22 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord.php on line 31
+[08-Mar-2019 01:11:30 UTC] PHP Warning:  mysql_query(): Access denied for user 'atmmaini'@'localhost' (using password: NO) in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord.php on line 30
+[08-Mar-2019 01:11:30 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord.php on line 30
+[08-Mar-2019 01:11:30 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord.php on line 31
+[08-Mar-2019 01:11:48 UTC] PHP Notice:  Undefined index: siteplant in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord1.php on line 21
+[08-Mar-2019 01:11:48 UTC] PHP Notice:  Undefined index: no in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord1.php on line 35
+[08-Mar-2019 01:12:05 UTC] PHP Notice:  Undefined variable: nm_perush in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord1.php on line 49
+[08-Mar-2019 01:12:24 UTC] PHP Notice:  Undefined index: coordx in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord2.php on line 2
+[08-Mar-2019 01:12:24 UTC] PHP Notice:  Undefined index: coordy in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord2.php on line 3
+[08-Mar-2019 01:13:02 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb.php on line 8
+[08-Mar-2019 01:13:02 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb.php on line 8
+[08-Mar-2019 01:13:02 UTC] PHP Notice:  Undefined variable: siteplant in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb.php on line 10
+[08-Mar-2019 01:13:02 UTC] PHP Notice:  Undefined variable: nm_perumh in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb.php on line 10
+[08-Mar-2019 01:13:02 UTC] PHP Warning:  mysql_query(): Access denied for user 'atmmaini'@'localhost' (using password: NO) in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb.php on line 15
+[08-Mar-2019 01:13:02 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb.php on line 15
+[08-Mar-2019 01:13:02 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb.php on line 16
+[08-Mar-2019 01:13:02 UTC] PHP Notice:  Undefined variable: nm_perumh in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb.php on line 25
+[08-Mar-2019 01:13:25 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb2.php on line 8
+[08-Mar-2019 01:13:25 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb2.php on line 8
+[08-Mar-2019 01:13:25 UTC] PHP Notice:  Undefined variable: siteplant in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb2.php on line 10
+[08-Mar-2019 01:13:25 UTC] PHP Notice:  Undefined variable: nm_perumh in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb2.php on line 10
+[08-Mar-2019 01:13:25 UTC] PHP Warning:  mysql_query(): Access denied for user 'atmmaini'@'localhost' (using password: NO) in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb2.php on line 15
+[08-Mar-2019 01:13:25 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb2.php on line 15
+[08-Mar-2019 01:13:25 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb2.php on line 16
+[08-Mar-2019 01:13:25 UTC] PHP Notice:  Undefined variable: nm_perumh in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/input_coord_cb2.php on line 25
+[08-Mar-2019 01:34:36 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 2
+[08-Mar-2019 01:34:36 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 2
+[08-Mar-2019 01:34:36 UTC] PHP Warning:  mysql_query(): Access denied for user 'atmmaini'@'localhost' (using password: NO) in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 19
+[08-Mar-2019 01:34:36 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 19
+[08-Mar-2019 01:34:36 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/atmmaini/grandaloha.hostingan.com/modul/mod_coordinat/pointgif2.php on line 20

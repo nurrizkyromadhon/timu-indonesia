@@ -1,0 +1,30 @@
+[31-Jan-2019 00:01:23 UTC] PHP Notice:  Undefined variable: date in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 94
+[14-May-2019 06:04:12 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 36
+[14-May-2019 06:04:12 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 36
+[14-May-2019 06:05:20 UTC] PHP Notice:  Array to string conversion in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 36
+[14-May-2019 06:05:20 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 37
+[14-May-2019 06:08:48 UTC] PHP Notice:  Array to string conversion in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 36
+[14-May-2019 06:08:48 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 37
+[14-May-2019 06:09:19 UTC] PHP Notice:  Array to string conversion in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 36
+[14-May-2019 06:09:19 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 37
+[14-May-2019 06:09:38 UTC] PHP Notice:  Array to string conversion in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 36
+[14-May-2019 06:09:38 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 37
+[14-May-2019 06:19:31 UTC] PHP Notice:  Undefined index: cek in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 43
+[14-May-2019 06:19:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 43
+[14-May-2019 06:19:31 UTC] PHP Notice:  Undefined index: cek in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 43
+[14-May-2019 06:19:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 43
+[14-May-2019 06:20:11 UTC] PHP Notice:  Undefined index: cek in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 43
+[14-May-2019 06:20:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 43
+[14-May-2019 06:20:11 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 48
+[14-May-2019 06:21:09 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 48
+[14-May-2019 06:35:53 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 52
+[14-May-2019 06:36:51 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 52
+[14-May-2019 06:41:47 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 52
+[13-Jun-2019 04:26:42 UTC] PHP Notice:  Undefined index: cara_bayar in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 17
+[13-Jun-2019 04:26:42 UTC] PHP Notice:  Undefined index: angsuran_ke in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 18
+[13-Jun-2019 04:26:42 UTC] PHP Notice:  Undefined index: bayar in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 20
+[13-Jun-2019 04:26:42 UTC] PHP Notice:  Undefined index: id_nasabah in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 22
+[13-Jun-2019 04:26:42 UTC] PHP Notice:  Undefined index: id_buyer in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 22
+[13-Jun-2019 04:26:42 UTC] PHP Notice:  Undefined index: tgl_transaksi in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 22
+[13-Jun-2019 04:26:42 UTC] PHP Notice:  Undefined index: referensi in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 22
+[13-Jun-2019 04:26:42 UTC] PHP Notice:  Undefined index: id_nasabah in /home/atmmaini/grandaloha.hostingan.com/modul/mod_hut_user/aksi_hut_user.php on line 24

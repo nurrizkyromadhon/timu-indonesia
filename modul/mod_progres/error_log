@@ -1,0 +1,2 @@
+[01-Oct-2018 08:52:48 UTC] PHP Notice:  Use of undefined constant urutan - assumed 'urutan' in /home/atmmaini/grandaloha.hostingan.com/modul/mod_modul/aksi_modul.php on line 25
+[01-Oct-2018 08:52:48 UTC] PHP Notice:  Undefined index: urutan in /home/atmmaini/grandaloha.hostingan.com/modul/mod_modul/aksi_modul.php on line 25

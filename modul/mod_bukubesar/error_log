@@ -1,0 +1,2 @@
+[20-Mar-2022 14:36:04 UTC] PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in /home/atmmaini/public_html/timu/config/koneksi.php on line 23
+[20-Mar-2022 14:36:12 UTC] PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in /home/atmmaini/public_html/timu/config/koneksi.php on line 23

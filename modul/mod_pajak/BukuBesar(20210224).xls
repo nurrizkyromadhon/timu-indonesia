@@ -1,0 +1,86 @@
+
+				<div class="box-body">
+						
+												<h3>Periode : 01-Feb-2021 s/d 28-Feb-2021</h3> 
+												Kode Rekening : 2.2.01.001 - Biaya Kontraktor							<table border="1">
+									<thead bgcolor=#A5B4EC>
+										<tr>
+											<th>No.</th>
+											<th>Tanggal</th>
+											<th>No.Reff</th>
+											<th>Perkiraan</th>
+											<th>Keterangan</th>
+											<th>No BG dan CEK</th>
+											<th>Debet</th>
+											<th>Kredit</th>
+											<th>Saldo</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>0</td>
+											<td>01-Feb-2021</td>
+											<td></td>
+											<td></td>
+											<td>Saldo Awal </td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td>
+																									0											</td>
+										</tr>
+																			</tbody>
+						  		</table>
+					  		</div>		
+				<?
+			} 
+			
+		elseif ($module=='bukubesar' AND $act=='print'){	
+    		?>
+    		    <html>
+                	<head>
+                		<title>SURAT PERMINTAAN/PEMBELIAN</title>
+                		
+                		<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
+                		
+                		<style type="text/css">
+                			@page {
+                			  size: A4;
+                			  size: portrait; 
+                			  margin: 10mm 20mm;
+                			}
+                			@media print {
+                				html, body {
+                					width: 210mm !important;
+                					height: 297mm !important;
+                				}
+                				table th, table td {
+                					border:1px solid #000;
+                					margin:0mm;
+                				}
+                				table { page-break-inside:auto }
+                				tr    { page-break-inside:avoid; page-break-after:auto }
+                				thead { display:table-header-group }
+                				.akhir {page-break-after: always;}
+                			}
+                			.container, .container table {
+                				width:100%;
+                			}
+                			.container table tr, .container table tr td, .container table tr th, .container table {
+                				margin:0px !important;
+                			}
+                		</style>
+                	</head>
+                	<body style="width: 210mm !important; height: 297mm !important;">
+                		<h3>CV.SINAR BINTANG TIMUR</h3>
+                		<center><h1>SURAT PERMINTAAN/PEMBELIAN</h1></center>
+                		                
+                		<script type="text/javascript">
+                			$(function () {				
+                				window.print();
+                			});
+                		</script>
+                		<!-- Inner Container End -->
+                	</body>
+                </html>
+    		

@@ -1,0 +1,220 @@
+<div class="box box-default">				
+						<div class="box-header with-border">
+							<h3 class="box-title text-blue text-bold mt-15">TABEL KEGIATAN KEUANGAN</h3>
+							<div class="box-tools pull-right">
+								<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-eye"></i></button>
+							</div>							
+						</div>
+						<div class="box-header with-border">
+							<h3 class="box-title"><b class="text-blue">Tabel Daftar Balik OP</b> dari tgl <strong><?=$tgl_aw_str?></strong> s/d <strong><?=$tgl_ak_str?></strong> </h3>
+						</div>
+							<div class="box-body">
+								<form name="submit" action="?module=jurnal_keu2&act=BALIK_OP" method="POST">
+									<div class="col-md-3">
+										<input class="form-control" type="date" name="tgl_aw">
+									</div>
+									
+									<div class="col-md-1">
+										<h4>Sampai : </h4>
+									</div>
+									<div class="col-md-3">
+										<input class="form-control" type="date" name="tgl_ak">
+									</div>
+									<div class="col-md-1">
+										<h4 class="box-title text-blue text-bold mt-15">Tampilan</h4>
+									</div>																		
+									<div class="col-md-2">
+										<select class="form-control" name="categoryJu" required>
+											<option value="SEMUA">SEMUA</option>
+											<option value="OP CASH">OP CASH</option>											
+											<option value="OP AP">OP AP</option>
+											<option value="OP AR">OP AR</option>											
+										</select>
+									</div>
+									<div class="col-md-1">
+										<button class="pull-right btn bg-gray text-blue text-bold" type="submit">OK</button>
+									</div>
+								</form>
+							</div>
+
+					<div class="box-body">
+						<div class="row">
+							<div class="tabel-responsive">
+								<div class="col-md-12">
+								<table id="myTable2" class="table table-striped table-bordered">
+									<thead class="bg-blue">
+										<tr>
+											<th>NO</th>
+											<th>DATE</th>
+											<th>NO REFF</th>
+											<th>JO NUMBER</th>
+											<th>TYPE</th>
+											<th>KATEGORY</th>
+											<th>KEGIATAN</th>											
+											<th></th>
+											<th>STAKEHOLDER</th>
+											<th>BUKTI</th>
+											<th>VALUE</th>
+											<th>BANK</th>
+											<th>ACTION</th>
+										</tr>
+									</thead>
+									<tbody>
+										<?php
+										$tampil = $_POST['categoryJu'];
+										$no_real_cost=1;
+											$query4=mysql_query("SELECT * from pf_real_cost as rc
+											left join pf_log on rc.id_pf_log=pf_log.id_pf_log
+											left join pf_est_cost as ec on rc.id_est_cost=ec.id_pf_est_cost
+											where tgl_pf_real_cost between '$tgl_aw' and '$tgl_ak' and
+											no_reff_keu like 'BBK%' and category1 like 'OP%'
+											group by no_reff_keu
+											order by id_pf_real_cost desc");
+										if ($tampil == 'OP CASH') {
+											$query4=mysql_query("SELECT * from pf_real_cost as rc
+											left join pf_log on rc.id_pf_log=pf_log.id_pf_log
+											left join pf_est_cost as ec on rc.id_est_cost=ec.id_pf_est_cost
+											where tgl_pf_real_cost between '$tgl_aw' and '$tgl_ak' and
+											category1 = 'OP CASH'
+											group by no_reff_keu
+											order by id_pf_real_cost desc");
+										}elseif ($tampil == 'OP AP') {
+											$query4=mysql_query("SELECT * from pf_real_cost as rc
+											left join pf_log on rc.id_pf_log=pf_log.id_pf_log
+											left join pf_est_cost as ec on rc.id_est_cost=ec.id_pf_est_cost
+											where tgl_pf_real_cost between '$tgl_aw' and '$tgl_ak' and
+											no_reff_keu like 'HUT%' and category1 = 'OP AP'
+											group by no_reff_keu
+											order by id_pf_real_cost desc");
+										}if ($tampil == 'OP AR') {
+											$query4=mysql_query("SELECT * from pf_real_cost as rc
+											left join pf_log on rc.id_pf_log=pf_log.id_pf_log
+											left join pf_est_cost as ec on rc.id_est_cost=ec.id_pf_est_cost
+											where tgl_pf_real_cost between '$tgl_aw' and '$tgl_ak' and
+											category1 = 'OP AR'
+											group by no_reff_keu
+											order by id_pf_real_cost desc");
+										}else {
+											$query4=mysql_query("SELECT * from pf_real_cost as rc
+											left join pf_log on rc.id_pf_log=pf_log.id_pf_log
+											left join pf_est_cost as ec on rc.id_est_cost=ec.id_pf_est_cost
+											where tgl_pf_real_cost between '$tgl_aw' and '$tgl_ak' and
+											no_reff_keu like 'BBK%' and category1 like 'OP%'
+											group by no_reff_keu
+											order by id_pf_real_cost desc");
+										}
+											
+											while($hasil4=mysql_fetch_array($query4) or die(mysql_error())){
+												$id_pf_real_cost=$hasil4['id_pf_real_cost'];
+										?>
+										<tr>
+											<td><?=$no_real_cost?></td>
+											<td><?=$hasil4['tgl_pf_real_cost']?></td>
+											<td><?=$hasil4['no_reff_keu']?></td>
+											<td>
+												<?php
+												$rc=mysql_query("select * from pf_real_cost as rc
+												join pf_log on rc.id_pf_log=pf_log.id_pf_log 
+												where no_reff_keu='$hasil4[no_reff_keu]' ");
+												while ($hslrc=mysql_fetch_array($rc)){
+												?>
+												<?=$hslrc['no_jo']?><br>
+												<?php } ?>
+											</td>
+
+											<td>
+											<?php
+												$rc=mysql_query("select * from pf_real_cost as rc
+												join pf_log on rc.id_pf_log=pf_log.id_pf_log 
+												left join pf_est_cost as ec on rc.id_pf_log=ec.id_pf_log
+												where no_reff_keu='$hasil4[no_reff_keu]'group by id_est_cost
+												");
+												while ($hslrc=mysql_fetch_array($rc)){
+													$ec=mysql_query("select * from pf_est_cost where id_pf_est_cost='$hslrc[id_est_cost]'");
+													$hslec=mysql_fetch_array($ec);
+												?>	
+												<?=$hslec['type_est_cost']?><br>
+												<?php } ?>
+											</td>
+											<td>
+
+											<?php
+												$rc=mysql_query("select * from pf_real_cost as rc
+												left join pf_log on rc.id_pf_log=pf_log.id_pf_log 
+												where no_reff_keu='$hasil4[no_reff_keu]' ");
+												while ($hslrc=mysql_fetch_array($rc)){
+												?>	
+												<?=$hslrc['category1']?><br>
+												<?php } ?>
+											</td>
+											<td>
+											<?php
+												$rc=mysql_query("select * from pf_real_cost as rc
+												left join pf_log on rc.id_pf_log=pf_log.id_pf_log 
+												where no_reff_keu='$hasil4[no_reff_keu]' ");
+												while ($hslrc=mysql_fetch_array($rc)){
+												?>
+												<?=$hslrc['kegiatan']?><br>
+												<?php } ?>
+											</td>
+											<td>
+											<?php
+												$rc=mysql_query("select * from pf_real_cost as rc
+												left join pf_log on rc.id_pf_log=pf_log.id_pf_log 
+												where no_reff_keu='$hasil4[no_reff_keu]' ");
+												while ($hslrc=mysql_fetch_array($rc)){
+												?>	
+												<?=$hslrc['desc_est_cost']?><br>
+												<?php } ?>
+											</td>
+											<td>
+											<?php
+												$rc=mysql_query("select * from pf_real_cost as rc
+												left join pf_log on rc.id_pf_log=pf_log.id_pf_log 
+												where no_reff_keu='$hasil4[no_reff_keu]' ");
+												while ($hslrc=mysql_fetch_array($rc)){
+												?>	
+												<?=$hslrc['stakeholder']?><br>
+												<?php } ?>
+											</td>
+											<td>
+											<?php
+												$rc=mysql_query("select * from pf_real_cost as rc
+												left join pf_log on rc.id_pf_log=pf_log.id_pf_log 
+												where no_reff_keu='$hasil4[no_reff_keu]' ");
+												while ($hslrc=mysql_fetch_array($rc)){
+												?>	
+												<?=$hslrc['bukti']?><br>
+												<?php } ?>
+											</td>
+											<td>
+											<?php
+												$rc=mysql_query("select * from pf_real_cost as rc
+												left join pf_log on rc.id_pf_log=pf_log.id_pf_log 
+												where no_reff_keu='$hasil4[no_reff_keu]' ");
+												while ($hslrc=mysql_fetch_array($rc)){
+												?>	
+												<?=number_format($hslrc['real_cost'])?><br>
+												<?php } ?>
+											</td>
+											<td><?php
+												$rc=mysql_query("select * from pf_real_cost as rc
+												left join pf_log on rc.id_pf_log=pf_log.id_pf_log 
+												where no_reff_keu='$hasil4[no_reff_keu]' ");
+												while ($hslrc=mysql_fetch_array($rc)){
+												?>	
+												<?=$hslrc['bank']?><br>
+												<?php } ?>
+											</td>
+											<td>
+												<a class="btn bg-gray btn-sm" href="<?=$aksi?>?module=jurnal_keu2&act=print&id=<?=$id_pf_real_cost?>&id_pf=<?=$hasil4['id_pf']?>&reff=<?=$type?>&no_reff_keu=<?=$hasil4['no_reff_keu']?>" target="_blank"><span class="fa fa-print"></a>
+											</td>
+										</tr>
+										<?php $no_real_cost++; } ?>	
+									</tbody>
+								</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
